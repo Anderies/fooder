@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.carousel .slide img{
+  object-fit: cover;
+  border: 1px solid black;
+}
+
+.carousel .slide {
+  height: 200px !important;  /* change this to whatever you want */
+  width: auto;
+}

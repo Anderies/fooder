@@ -1,0 +1,16 @@
+.blue {
+    color: #1154ff;
+}
+
+.box {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    /* border: 1px solid #e3f2fd; */
+}
+
+.itemNav {
+    /* flex: 1 1 auto; */
+}

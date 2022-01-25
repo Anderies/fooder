@@ -1,13 +1,64 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+p {
+  margin: 0;
 }
+code {
+
+}
+
+.mt-5p{
+  margin-top: 5%;
+}
+p{
+  font-family: poppins-med;
+}
+
+@font-face {
+  font-family: 'poppins';
+  font-style: normal;
+  src: local('☺'), 
+       url('../public/fonts/Poppins-Light.ttf') format('truetype'); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: 'poppins-reg';
+  src: url('../public/fonts/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'poppins-med';
+  src: url('../public/fonts/Poppins-Medium.ttf') format('truetype'); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: 'poppins-bold';
+  src: url('../public/fonts/Poppins-Bold.ttf') format('truetype'); /* IE9 Compat Modes */
+}
+
+.w-20{
+  width: 20%;
+}
+
+.w-60{
+  width: 60%;
+}
+
+.w-70{
+  width: 70%;
+}
+
+.w-15{
+  width: 15%;
+}
+.w-10{
+  width: 10%;
+}
+
+.w-100{
+  width: 100%;
+}
+

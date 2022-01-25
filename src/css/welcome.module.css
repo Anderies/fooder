@@ -1,0 +1,39 @@
+.blue {
+    font-family: "poppins";
+    color: #1154ff;
+}
+
+.bold {
+    font-family: "poppins-bold";
+    font-weight: 800;
+}
+
+p,
+h1,
+h2 {
+    font-family: "poppins-reg";
+}
+
+h1 {
+    font-size: 14px;
+    margin-bottom: 0.5%;
+    font-weight: 500;
+}
+
+.loginImages {
+    /* border: 1px solid; */
+    width: 100%;
+}
+
+.buttonLogin {
+    background-color: #650fe7 !important;
+}
+
+.buttonSign {
+    color: #650fe7 !important;
+    border-color: #650fe7 !important;
+}
+
+.pdButton {
+    padding: 3.5% 0 !important;
+}

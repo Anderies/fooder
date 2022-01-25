@@ -1,0 +1,23 @@
+.fooder {
+    font-family: "poppins-bold";
+    color: #1154ff;
+    font-size: 18px;
+    margin-top: 5%;
+    /* font-weight: 800; */
+}
+
+.blue {
+    color: #1154ff;
+}
+
+.datepicker {
+    width: 100%;
+}
+
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+    width: 100%;
+}
+
+.full {
+    width: 100% !important;
+}
