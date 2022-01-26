@@ -30,15 +30,14 @@ function SignUp() {
             </div>
 
 
-            <div className='w-100'>
+            <div>
                 <TextField id="outlined-basic" label="Email" variant="outlined" className="w-100 mt-4" />
                 <TextField id="outlined-basic" label="Password" variant="outlined" className="w-100 mt-3" />
-                <div className='w-100 mt-3'>
+                <TextField id="outlined-basic" label="Birthday" variant="outlined" className="w-100 mt-3" />
+                {/* <div className='w-100 mt-3'>
                     <LocalizationProvider dateAdapter={AdapterDateFns}>
-
                         <DatePicker
                             fullWidth
-                            style={`width:100%`}
                             label="Birthday"
                             value={value}
                             onChange={(newValue) => {
@@ -49,7 +48,7 @@ function SignUp() {
 
 
                     </LocalizationProvider>
-                </div>
+                </div> */}
 
                 <TextField id="outlined-basic" type="number" label="Height" variant="outlined" className="w-100 mt-3" />
                 <TextField id="outlined-basic" type="number" label="Weight" variant="outlined" className="w-100 mt-3" />

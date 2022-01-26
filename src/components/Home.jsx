@@ -9,7 +9,7 @@ function Home() {
         {/* <router></router> */}
         {/* <p className={styles.blue}>SignUp</p> */}
         <Link className={`${stylesHome.blue} ${stylesHome.itemNav}`} to="/welcome">SignUp</Link>
-        <Link className={`${stylesHome.blue} ${stylesHome.itemNav}`} to="/">Fooder Home</Link>
+        <Link className={`${stylesHome.blue} ${stylesHome.itemNav}`} to="/home">Fooder Home</Link>
         <Link className={`${stylesHome.blue} ${stylesHome.itemNav}`} to="/meal">Fooder Scan</Link>
       </nav>
     </>

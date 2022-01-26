@@ -6,6 +6,9 @@ import Welcome from './components/login/Welcome';
 import SignUp from './components/login/SignUp';
 import Login from './components/login/Login';
 import Home from './components/Home';
+import FooderHome from './components/FooderHome';
+import FooderProfile from './components/FooderProfile';
+import FoodMachineScan from './components/scan/FoodMachineScan';
 function App() {
   return (
     <Router>
@@ -15,6 +18,12 @@ function App() {
         <Route path="/welcome" element={<Welcome />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
+
+        <Route path="/profile" element={<FooderProfile />} />
+
+        {/* Scan */}
+        <Route path="/home" element={<FooderHome />} />
+        <Route path="/scan" element={<FoodMachineScan />} />
         {/* <Route path="/about" element={<About />} />
         <Route path="/meal" element={<Meal />} />
         <Route path="/contact" element={<Contact />} />
